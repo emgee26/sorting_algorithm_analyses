@@ -1,0 +1,14 @@
+
+    The problem with asymptotic analysis is that it is difficult to predict
+    the exact value for the running time for algorithms because constants 
+    are ignored. The time complexity of the algorithm in relation to the 
+    change in input size is what is considered in this analysis technique. 
+    
+    Which is why it is best to use a method for analyzing the actual running
+    time of algorithms based on the size of the input. The algorithms can 
+    then be analyzed and compared based on their running time 
+    performance in relation to various input sizes. This analyses technique
+    is known as empirical analysis. 
+
+    You may close this window and select the "empirical analyses" option 
+    on the start page whenever you are ready!

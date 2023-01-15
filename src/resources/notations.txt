@@ -1,0 +1,60 @@
+
+    There are three most commonly used asymptotic notations used to
+    compute the running time complexity of an algorithm. These 
+    notations are the big-O notation (O), the big-omega notation (O)
+    and the theta notation (O).
+
+
+    Big-O Notation - O(n)
+
+    The notation O(n) is used to express the upper bound of an 
+    algorithm's running time. It measures the longest amount of time
+    an algorithm can possibly take to complete its execution. In 
+    other words, it measures the worst-case scenario of an algorithm's
+    running time. 
+
+    O(1) describes an algorithm that will always run in the same time 
+    or space when given an input of any size.
+
+    O(n) describes an algorithm whose performance grow in direct 
+    proportion to the size of the input. An algorithm in such instance 
+    is said to grow linearly.
+
+    O(n^2) describes an algorithm whose performance grows in 
+    direct proportion to the square of the size of the input.
+
+    O(2^n) describes an algorithm whose performance growth doubles 
+    whenever an input is added to the input data set. For example, the 
+    recursive computation of Fibonacci numbers.
+
+    O(log n) describes an algorithm whose performance peaks at the 
+    beginning of the execution and then flattens slowly as the size of 
+    the input increases.
+
+    O(n log n) describes an algorithm whose running time increases in
+    proportion to the logarithm of the input size, multiplied by the 
+    actual input size.
+
+    O(n!) describes an algorithm whose running time is bounded by a 
+    multiple of "n!" for sufficiently large 'n'. An example is an algorithm 
+    that is used to calculate the determinant of a matrix by its recursive
+    definition.
+
+
+    Big-Omega Notation - O(n)
+
+    The big-omega (or omega) notation is used to measure the best 
+    (or shortest) amount of time an algorithm can possibly take to 
+    complete its execution. In other words, the big-omega notation
+    measures the best-case scenario of an algorithm's running time. 
+    The best-case scenario of an algorithm's running time is not 
+    much of a problem for programmers since it does not present 
+    as much difficulty as the worst-case scenario does.
+
+
+    Big Theta Notation - O(n)
+
+    The big theta notation is defines both the upper bound and the lower 
+    bound of an algorithm's running time. In other words, the big 
+    notation is used to express the average-case scenario of an 
+    algorithm's running time.

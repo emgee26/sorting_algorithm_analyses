@@ -1,0 +1,34 @@
+
+    Merge Sort
+
+    Merge sort algorithm was invented in 1945 by John von Neumann as 
+    a divide and conquer algorithm. Merge sort works by repeatedly
+    breaking down a list into several sub lists until each list 
+    consists of a single element and merging those sub lists in a 
+    manner that results into a sorted list.
+
+
+    Heap Sort
+
+    Heap sort can be thought of as an improvement of the selection 
+    sort algorithm. It divides its input into a sorted and an 
+    unsorted region, and it iteratively shrinks the unsorted region
+    by extracting the largest value from it and inserting it into the
+    sorted region. However, unlike selection sort, heap sort does not
+    waste time with a linear-time scan of the unsorted region; rather,
+    it maintains the unsorted region in a heap data structure to find
+    the largest value in each step more quickly.
+
+
+
+    Asymptotic Comparison of Merge Sort and Heap Sort
+
+    For merge sort and heap sort, the best case, average case and
+    worst case time complexities for both algorithms are O(n*log(n)), 
+    O(n*log(n)) and O(n*log(n)) respectively. This simply means that 
+    the two algorithms have the same time complexities in all the three
+    case scenarios of performance. That is, the time complexities of 
+    both algorithms will increase in proportion to the logarithm of the
+    input size, multiplied by the actual input size. This will be the 
+    case for the best, average and worst case scenarios of both 
+    algorithms.
