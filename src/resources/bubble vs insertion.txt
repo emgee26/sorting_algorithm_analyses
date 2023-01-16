@@ -1,0 +1,58 @@
+
+    Bubble Sort   
+
+    Bubble sort works by swapping adjacent elements if they're not in the
+    desired order. This process repeats from the beginning of the array 
+    until all elements are in order. We know that all elements are in order
+    when we manage to do the whole iteration without swapping at all - 
+    then all elements we compared were in the desired order with their 
+    adjacent elements, and by extension, the whole array.
+
+
+
+    Insertion Sort
+
+    Insertion sort works by sorting an array one at a time until the whole
+    array is sorted. In each iteration, insertion sort compares the current
+    element with the next element and determines whether the current 
+    element is greater than the one it was compared to. If this comparison 
+    is true, then it leaves the element in its place and moves on to the 
+    next element. 
+    
+    If the comparison is false, then it finds its correct
+    position in the sorted array and moves it to that position by shifting 
+    all the elements which are larger in the sorted array to one position 
+    ahead.
+
+
+
+    Cocktail Sort
+
+    Cocktail sort algorithm works by looping through the values from left
+    to right, values adjacent to each other are compared and swapped if 
+    the value on the immediate left is greater than the value on the 
+    immediate right. The swapping goes on till the largest value is 
+    placed at the end of the array of values. Another looping process is
+    done in an opposite direction and values that are adjacent to each
+    other are compared and swapped if necessary. This second loop starts 
+    from the value just before the most recently sort value after the 
+    first loop. The cocktail sort algorithm is basically an extension of
+    the bubble sort algorithm which sorts values by working in two 
+    directions.
+
+
+
+    Asymptotic Comparison of The Three Algorithms.
+     
+    The best case, average case and worst case time complexity of bubble 
+    sort is asymptomatically similar to that of insertion sort and 
+    cocktail sort. The best case time complexity for all the three 
+    aforementioned algorithms is O(n). 
+    This means that the time complexities of bubble sort, insertion sort 
+    and cocktail sort will increase in direct proportion to the 
+    input size n. That is, if the number of input doubles, then the time
+    complexities of the algorithms will double as well. The average and 
+    worst case time complexities of the three algorithms are O(n2) and 
+    O(n2). This asymptotic analysis means that in both the average and
+    worst case time complexities of the algorithms will increase in 
+    proportion to the square of the input size 'n'.
