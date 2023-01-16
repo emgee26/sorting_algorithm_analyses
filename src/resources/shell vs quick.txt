@@ -1,0 +1,35 @@
+
+    Shell Sort
+
+    Shell sort improves on the insertion sort by breaking the original list
+    into a number of smaller sub lists, each of which is sorted using an 
+    insertion sort. The unique way that these sub lists are chosen is the 
+    key to the shell sort algorithm. Instead of breaking the lists into 
+    sub lists of contiguous items, the shell sort uses an increment 'i',
+    sometimes called the 'gap', to create a sub list by choosing all items 
+    that are i items apart. 
+
+
+    Quick Sort
+
+    Quick sort was created by the British computer scientist Tony Hoare 
+    in 1959 and published in 1961. It is a very fast and efficient 
+    "divide and conquer" algorithm. It operates by choosing an element as
+    a pivot element from the array and partitioning the other elements
+    into two sub-arrays, depending on whether they are less than or
+    greater than the pivot element. The sub-arrays are then sorted
+    recursively.
+
+
+    Asymptotic Comparison of Shell Sort and Quick Sort
+
+    Shell sort is asymptomatically similar to quick sort in its best case,
+    average case and worst case scenarios. The best case and average case 
+    time complexities of both algorithms are expressed as O(n*log(n)) and
+    O(n*log(n)) respectively. That is, in the best and average case 
+    scenarios of both algorithms, their time complexities will increase 
+    in proportion to the logarithm of the input size, multiplied by the 
+    actual input size n. The worst case time complexity of both algorithms 
+    is O(n2). That is, in the worst case scenarios of shell sort and 
+    quick sort, their time complexities will increase in proportion to the
+    square of the input size.

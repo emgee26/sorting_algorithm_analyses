@@ -1,0 +1,41 @@
+
+    Asymptotic analysis is a method which is used to measure the 
+    performance of algorithms in terms of input size. 
+
+    In this analysis technique, the actual running time of the 
+    algorithm is not measured, instead, the time complexity 
+    of the algorithm as the input size becomes large is expressed
+    by the use of asymptotic notations. 
+
+    This analysis technique helps to determine the best case, 
+    average case, and worst case scenario of an algorithm. 
+    
+    The best-case, average-case and worst-case scenarios are
+    used to classify the running time of an algorithm given an 
+    input of size 'n'. 
+
+    The best-case scenario describes the minimum time required 
+    for an algorithm to execute its operation on an input of size n. 
+    This scenario deals with the fastest time which an algorithm
+    takes to complete its operation, given that the inputs are 
+    optimal. An example is when a sorting algorithm is used on an
+    already sorted input.
+
+    The average-case scenario describes the average time required
+    for an algorithm to execute its operation on an input of size n.
+    It is most at times difficult to estimate the average running
+    time of an algorithm. An example is when a sorting algorithm is
+    used to sort an input that is half sorted.
+
+    The worst-case scenario describes the maximum time required for
+    an algorithm to execute its operation on an input of size n. 
+    This scenario deals with the slowest time which an algorithm 
+    takes to complete its operation, given that the inputs are not
+    optimal. For some sorting algorithm, an input which has been 
+    sorted in a reverse order and needs to be re-sorted backwards 
+    may generate a worst-case scenario. 
+
+    The worst-case scenario is important for real-time computer 
+    systems which require secure and guaranteed performance. 
+    The Big-O notation is used to assess the worst-case running 
+    time of an algorithm.
